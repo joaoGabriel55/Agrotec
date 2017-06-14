@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+    
+}
+
+.top{
+    background-color:darkseagreen;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-bottom: 2px;
+    background-attachment:local;
+    border-color: #4CAF50;
+    position:relative; 
+}
+
+.top h5{
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    margin-top: 100px;
+    margin-right: 305px;
+}
+
+.top h4{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    float: right;
+    margin-top: 140px;
+    margin-right: 402px;
+    
+}
+
+.realizacaoEAJ{
+    position: absolute;
+    float: right;
+    object-position: right;
+    top: 20%;
+    left: 70%;
+}
+
+.realizacaoUF{
+    position: absolute;
+    float: right;
+    object-position: right;
+    top: 23.7%;
+    left: 85%;
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:sticky;
+    top: 50;
+    width: 100%;
+}
+
+.ativo {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4CAF50;
+     z-index:1;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    border-right: 1px solid;
+    color: aliceblue;
+    
+    
+}
+
+li a, .dropbtn {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+     z-index:1;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+     z-index:1;
+}
+
+li.dropdown {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;  
+     z-index:1;
+}
+
+.dropdown-content {
+    font-family: 'Open Sans', sans-serif;
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+     z-index:1;
+
+}
+
+.dropdown-content a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding: 15px 46px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+     z-index:1;
+}
+
+.dropdown-content a:hover {
+    background-color:darkgrey;
+    font-family: 'Open Sans', sans-serif;
+     z-index:1;
+}
+
+.dropdown:hover .dropdown-content {
+    display:inline-block;
+    position:absolute ;
+     z-index:1;
+}
+
+h2{
+    color:#4CAF50;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+}
+
+.Texto h3{
+    color:#4CAF50;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px;
+}
+
+.Texto p{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px;
+    text-align: justify;
+}
+
+.contact{
+    background-color: darkgrey;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10%;
+    font-size: 10px;
+    padding-top: 5%;
+    background-position: bottom;
+}
+
+.link a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.link a:hover{
+    color: darkgreen;
+    text-decoration: none;
+    
+}
+
+.tabela h3{
+    font-family: 'Open Sans', sans-serif;
+    color:  #4CAF50;
+    margin-top: 25px;
+    margin-left: 30px;
+   
+}
+
+.tabela table {
+    width:95%;
+    margin-left: 50px;
+    margin-bottom: 5%;
+    text-align: left;
+    
+}
+.tabela table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 2%;
+    
+
+}
+
+.tabela th, td {
+    padding: 5px;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #eee;
+}
+.tabela tr:nth-child(odd) {
+   background-color:#fff;
+}
+.tabela th {
+    background-color: #4CAF50 ;
+    color: white;
+}
+
+.tabela2 table {
+    width:95%;
+    margin-left: 50px;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+
+.tabela2 th, td{
+    padding: 5px;
+}
+
+.tabela2 #lunch{
+    background-color: #4CAF50;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+
+.tabela2 table {
+    width:95%;
+    margin: 50px;
+    
+}
+.tabela2 table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 2%;
+}
+
+.tabela2 th {
+    background-color: #4CAF50 ;
+    color: white;
+}
+
+.local iframe{
+    margin-top: 5%;
+    margin-left: 29%;
+}
+
+.alerta{
+    color: red;
+    font-size: x-small;
+}
+
+.aletar3{
+    color: blue; font-size: x-small;
+}
+
+
+.tabelaForm table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 26%; 
+    margin-top: 5%;
+
+}
+
+.tabelaForm th, td {
+    padding: 5px;
+}
+
+.tabelaForm tr:nth-child(even) {
+    background-color: #eee;
+}
+.tabelaForm tr:nth-child(odd) {
+   background-color:#fff;
+}
+.tabelaForm th {
+    background-color: #4CAF50 ;
+    color: white;
+}
+
+.login{
+   margin-left: 40%; 
+    margin-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login a:link{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+}
+
+.login a:hover{
+    color: darkgreen;
+    text-decoration: none;
+        font-size: 11px;
+    
+}
+.confirm{
+
+    padding-right:30px; 
+    padding-left:30px;
+    background-color: #4CAF50;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 35px;
+}
+
+#cadastrar{
+    padding: 10px;
+    background-color: #4CAF50;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#clean{
+    padding: 10px;
+    background-color: lightgray;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}

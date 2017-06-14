@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Agrotec</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="estilos.css"/>
+<link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <div class="top">
+    <img src = "Imagens/Agrotec 3.png" id="i1">
+      <h5>REALIZAÇÃO: </h5>
+      <h4>DIAS 24 A 26 DE OUTUBRO</h4>
+  </div>
+    <div class="realizacaoEAJ">
+        <img src="Imagens/EAJ_logo3.png">
+    </div>
+    <div class="realizacaoUF">
+        <img src="Imagens/UFRN_logo3.png">
+    </div>
+<h2>Tecnologia no campo para um mundo melhor</h2>
+    <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="programacao.html" class = "dropbtn">Programação</a>
+                <div class="dropdown-content">
+                    <a href="palestras.html">Palestras</a>
+                    <a href="cursos.html">Minicursos</a>
+                    <a href="apresenta.html">Apresentações</a>
+                    <a href="eventos.html">Minieventos</a>
+                    <a href="mesa.html">Mesa redonda</a>
+                </div>
+            </li>
+            <li><a class="ativo" href="inscricoes.html">Inscrições</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+    </ul>
+
+    <script type="text/javascript">
+        <!--mce:0-->
+    </script>
+
+    <form action="cadastroMysql.php" method="post">
+        <div class = tabelaForm>
+        <table style="width: 625px"; border = "0">
+            <tbody><tr>
+                <td width = "69">Nome: </td>
+                <td width = "546"><input id = "nome" maxlength = "60" name = "nome" size = "70" type = "text"/>
+
+                    <span class = "alerta">*</span></td>
+
+                </tr>
+
+                <tr>
+                    <td>Email: </td>
+                    <td><input id = "email" maxlength="60" name="email" size="70" type = "text"/>
+                    <span class="alerta">*</span>
+                    </td>
+                </tr>
+              <tr>
+            <td>Sexo:</td>
+            <td><input checked="checked" name = "sexo" type = "radio" value = "Masculino"/>
+
+                Masculino
+
+                <input name ="sexo" type="radio" value="Feminino"/>
+
+                Feminino<span class="alerta">*</span> </td>
+
+                </tr>
+
+                <tr>
+                    <td>Telefone:</td>
+
+                    <td><input id = "ddd" maxlength="2" name="ddd" size="4" type=text
+                        <input id="tel" name="tel" type="text"/>
+
+                        <span class="alerta3">Apenas números</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Login: </td>
+                    <td>
+                        <input id="login" maxlength="12" name="login" type="text"/>
+
+                        <span class="alerta">*</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Senha:</td>
+                    <td><input id = "senha" maxlength = "12" name = "senha" type="password"/>
+                        <span class = "alerta">*</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Confirme a senha:</td>
+                    <td><input id = "resenha" maxlength = "12" name = "resenha" type="password"/>
+                        <span class = "alerta">*</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><p>
+                        <input id = "cadastrar" name = "cadastrar" type="submit" value = "Cadastrar"/>
+
+                        <input id = "clean" name="clean" type="reset" value="Clean"/>
+
+                        <span class = "alerta">*Campos com * são obrigatórios !!!</span>
+
+                        </p><p></p>
+
+
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </form>
+
+
+
+
+    <div class="contact">
+         <h3><p>Site feito por João Gabriel Quaresma, Aluno do TADS/UFRN</p>
+        | SIGAA | Superintendência de Informática - (84) 3215-3148 | Copyright © 2006-2016 - UFRN -
+        <div class="link">
+        <a href="https://sigeventos.ufrn.br/eventos/public/home.xhtml">sigeventos.ufrn.br/eventos/public/home.xhtml</a>
+            </div>
+        </h3>
+    </div>
+</body>
+</html>
